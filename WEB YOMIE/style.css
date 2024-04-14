@@ -1,0 +1,170 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #20232a;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.logoname {
+  display: flex;
+  align-items: center;
+}
+
+.logoname .logo-container {
+  margin-right: 10px;
+}
+
+.logoname .text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoname span {
+  font-weight: bold;
+  font-size: 30px;
+  font-style: Franklin Gothic Heavy;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.white {
+  color: white;
+}
+
+.white1 {
+  color: white;
+  font-size: 10px; 
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+.contact-btn {
+  background-color: rgb(179, 179, 54); /* Button background color with transparency */
+  color: #ffffff; /* Button text color */
+  padding: 20px 30px; /* Adjust padding as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect */
+  
+  position: absolute; /* Position the button absolutely */
+  top: 60px; /* Distance from the top of the container */
+  right: 500px; /* Distance from the right of the container */
+}
+
+.contact-btn:hover {
+  background-color: #ffff0066; /* Change background color to solid on hover */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 20px; /* Adjust the top margin */
+  margin-left: 20px; /* Adjust the left margin */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Apply dark glow effect to the welcome text */
+.welcome-text {
+  text-align: left; /* Align the text to the left */
+  margin-left: 20px; /* Add some left margin */
+  color: white; /* Set text color to white */
+  text-shadow: 1px 1px 0.1px rgba(128, 128, 128, 1); /* Add drop shadow */
+}
+
+.search-container {
+  position: absolute;
+  top: 250px; /* Adjust top position as needed */
+  left: 700px; /* Adjust left position as needed */
+}
+
+.search-container input[type="text"] {
+  padding: 10px; /* Adjust padding as needed */
+  background-color: #d3d3cca8; /* Button background color */
+  width: 1000px; /* Adjust width as needed */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+.search-container button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #ffff0066; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer;
+  margin-left: 10px; /* Add some space between the input and button */
+}
+
+.search-container button:hover {
+  background-color: #ffff0066; /* Change background color on hover */
+}
+
+
+
+
+main {
+  padding-top: 50px;
+}
+
+.parallax {
+  background-image: url('ccs\ background.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 500px 0;
+  text-align: center;
+}
+
+.section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
